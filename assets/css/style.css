@@ -66,7 +66,8 @@ img {
 ========================= */
 
 .container {
-  width: min(1120px, calc(100% - 2rem));
+  width: min(94%, 1400px);
+  margin: 0 auto;
 }
 
 .section {
