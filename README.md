@@ -54,9 +54,23 @@ Implementação de um workflow automatizado (`.github/workflows/main.yml`) conte
 
 O arquivo `README.md` deve conter:
 
-1.  Link público do currículo em produção.
-2.  Instruções detalhadas para execução do ambiente local via Docker.
-3.  Prints ou descrição da configuração de proteção da branch `main` aplicada no GitHub.
+### 3.1.  Link público do currículo em produção.
+
+O site pode ser acessado por esse link: https://thiago-peczek.github.io/ds881-curriculo-GRR20243533/
+    
+### 3.2.  Instruções detalhadas para execução do ambiente local via Docker.
+
+#### Pré-requisitos
+- Docker instalado na máquina hospedeira.
+- Docker Compose instalado.
+
+#### Passo a Passo da Execução
+1. Subir o contêiner de desenvolvimento: No diretório raiz do projeto, execute o comando: `docker compose up --build`
+2. Acessar a aplicação: Abra seu navegador e acesse: http://localhost:8080
+3. Parar o servidor: Use Ctrl + C no terminal ou execute: `docker compose down`
+
+### 3.3.  Prints ou descrição da configuração de proteção da branch `main` aplicada no GitHub.
+As prints estão presentes no final do arquivo.
 
 ## 4. Critérios de Avaliação
 
